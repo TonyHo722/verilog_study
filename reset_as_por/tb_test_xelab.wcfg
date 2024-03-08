@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_test_xelab.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ns"></ZoomStartTime>
+      <ZoomEndTime time="111 ns"></ZoomEndTime>
+      <Cursor1Time time="60 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="370"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/tb_test/dut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_test/dut/PAD">
+      <obj_property name="ElementShortName">PAD</obj_property>
+      <obj_property name="ObjectShortName">PAD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_test/dut/rstb_h">
+      <obj_property name="ElementShortName">rstb_h</obj_property>
+      <obj_property name="ObjectShortName">rstb_h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_test/dut/porb_h">
+      <obj_property name="ElementShortName">porb_h</obj_property>
+      <obj_property name="ObjectShortName">porb_h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_test/dut/porb_l">
+      <obj_property name="ElementShortName">porb_l</obj_property>
+      <obj_property name="ObjectShortName">porb_l</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_test/dut/por_l">
+      <obj_property name="ElementShortName">por_l</obj_property>
+      <obj_property name="ObjectShortName">por_l</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_test/dut/resetb_in">
+      <obj_property name="ElementShortName">resetb_in</obj_property>
+      <obj_property name="ObjectShortName">resetb_in</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_test/dut/de_glitch">
+      <obj_property name="ElementShortName">de_glitch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">de_glitch[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_test/dut/cnt">
+      <obj_property name="ElementShortName">cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[2:0]</obj_property>
+   </wvobject>
+</wave_config>
