@@ -1,0 +1,2 @@
+`define REMOVE_POWER_PAD 1
+

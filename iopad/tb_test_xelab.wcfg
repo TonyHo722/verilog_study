@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_test_xelab.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ns"></ZoomStartTime>
+      <ZoomEndTime time="97 ns"></ZoomEndTime>
+      <Cursor1Time time="40 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="208"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="array" fp_name="/tb_test/DM">
+      <obj_property name="ElementShortName">DM[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DM[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group11">
+      <obj_property name="label">For In</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_test/PAD_driving">
+         <obj_property name="ElementShortName">PAD_driving</obj_property>
+         <obj_property name="ObjectShortName">PAD_driving</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_test/PAD">
+         <obj_property name="ElementShortName">PAD</obj_property>
+         <obj_property name="ObjectShortName">PAD</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_test/IN">
+         <obj_property name="ElementShortName">IN</obj_property>
+         <obj_property name="ObjectShortName">IN</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group12">
+      <obj_property name="label">for Out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_test/OUT">
+         <obj_property name="ElementShortName">OUT</obj_property>
+         <obj_property name="ObjectShortName">OUT</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_test/PAD">
+         <obj_property name="ElementShortName">PAD</obj_property>
+         <obj_property name="ObjectShortName">PAD</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
