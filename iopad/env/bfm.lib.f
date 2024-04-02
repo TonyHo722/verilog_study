@@ -6,7 +6,4 @@
 //-v ../../SAED32_EDK/lib/sram/verilog/saed32sram.v
 
 -sourcelibfile ../../SAED32_EDK/lib/io_std/verilog/saed32nm_io_wb.v
-//-sourcelibext   .v
-//--sourcelibdir ../../SAED32_EDK/lib/io_std/verilog
-//--include ../../SAED32_EDK/lib/io_std/verilog
 
